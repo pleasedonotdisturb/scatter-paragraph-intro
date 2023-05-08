@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'EB Garamond', serif;
+}
+
+body {
+    display: grid;
+    place-content: center;
+    min-height: 100vh;
+    background: #000;
+}
+
+h1 {
+    color: #fff;
+    font-size: 3em;
+	font-weight: 600;
+}
+
+p {
+    max-width: 600px;
+    color: #fff;
+    font-size: 1.25em;
+}
